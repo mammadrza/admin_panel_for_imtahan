@@ -1,0 +1,110 @@
+#login{
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form{
+  height: 500px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.login-form-quizBox{
+  text-align: center;
+  font-weight: 700;
+}
+
+#point::-webkit-inner-spin-button, #point::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+    -moz-appearance:textfield !important;
+}
+
+.login-form-noticeBox{
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.login-form-noticeBox span{
+  font-weight: 700;
+}
+
+/*--------------------------------*/
+
+#exam{
+  height: 600px;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.exam-form{
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.exam-form-lessonName{
+  text-align: center;
+  font-weight: 700;
+}
+
+.exam-form-userInfo{
+  height: 250px;
+  width: 80%;
+  border: 1px solid black;,
+  border-radius: 5px;
+  text-align: center;
+  /*background-color: gray;*/
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.exam-form-questions{
+  /*border: 1px solid black;*/
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+/*--------------------------------------*/
+
+#result{
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-form{
+  height: 500px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+/*-------------- Rza start---------- */
+
+
+.nargin{
+ 
+  
+  margin-top: 20px;
+  
+}
+
+
+
+/*-------------- Rza end---------- */

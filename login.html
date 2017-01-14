@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giriş</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <section id="login">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="login-form">
+              <div class="col-md-12">
+                <h1 class="login-form-quizBox">Sınaq Simulator</h5>
+              </div>
+              <div class="col-md-3"></div>
+              <div class="col-md-6">
+                <div class="col-md-12" style="height: 50px;"></div>
+                <div class="col-md-12">
+                  <div class="login-form-nameBox">
+                    <div class="form-group">
+                      <label for="name">Ad:</label>
+                      <input type="text" class="form-control" id="name" placeholder=".....">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="login-form-surnameBox">
+                    <div class="form-group">
+                      <label for="surname">Soyad:</label>
+                      <input type="text" class="form-control" id="surname" placeholder=".....">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="login-form-pointBox">
+                    <div class="form-group">
+                      <label for="point">İmtahana giriş balı: </label>
+                      <input type="number" onKeyDown="if(this.value.length==2 && this.value>=55) location.reload()" class="form-control" id="point" placeholder=".....">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <button class="btn btn-info btn-lg btn-block" type="button" name="button">Login</button>
+                </div>
+              </div>
+              <div class="col-md-3"></div>
+              <div class="col-md-12">
+                <div class="login-form-noticeBox">
+                  <p><span>Qeyd:</span> <span style="color: red;">Ad, soyad</span> və <span style="color: red;">imtahan öncəsi balı</span> doğru daxil edin. Əks halda sınağa daxıl ola bilməyəcəksiz. Uğurlar!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
